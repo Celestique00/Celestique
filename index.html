@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celestique – Reines Wasser</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #f4f1ec;
+      color: #222;
+    }
+    header {
+      background-color: #e8e4df;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+    nav {
+      text-align: center;
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #444;
+      font-weight: bold;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .hero {
+      background: url('celestique-bottle-1.png') no-repeat center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .shop {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .shop-item {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      border-radius: 10px;
+      background-color: white;
+      text-align: center;
+    }
+    .shop-item img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #e8e4df;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>CELESTIQUE</h1>
+    <nav>
+      <a href="#home">Startseite</a>
+      <a href="#about">Über uns</a>
+      <a href="#shop">Online Shop</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    Das eleganteste Wasser der Welt
+  </section>
+
+  <section id="about">
+    <h2>Über Celestique</h2>
+    <p>Celestique steht für Reinheit, Eleganz und Nachhaltigkeit. Unser Wasser wird aus natürlichen Quellen bezogen und in stilvolle Glasflaschen abgefüllt, die zeitlose Ästhetik mit hochwertigem Genuss vereinen.</p>
+  </section>
+
+  <section id="shop">
+    <h2>Online Shop</h2>
+    <div class="shop">
+      <div class="shop-item">
+        <img src="celestique-bottle-1.png" alt="Celestique Flasche">
+        <h3>Celestique Classic 750ml</h3>
+        <p>€3,90</p>
+      </div>
+      <div class="shop-item">
+        <img src="celestique-bottle-2.png" alt="Celestique Flasche klein">
+        <h3>Celestique Mini 500ml</h3>
+        <p>€2,90</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Celestique. Alle Rechte vorbehalten.
+  </footer>
+</body>
+</html>
